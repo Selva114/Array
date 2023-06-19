@@ -1,0 +1,16 @@
+//Print even number in array
+
+public class Evenmark
+{
+   public static void main(String[] args) 
+{
+        int marks[] = {189, 180, 154, 154,176,155};
+        for(int i=0;i<marks.length;i++)
+        {
+        if(marks[i]%2==0)
+{
+System.out.println("The even marks are: " + marks[i]);
+}
+}
+}
+}

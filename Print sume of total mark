@@ -1,0 +1,53 @@
+public class Mark
+{
+public static void main(String args[])
+{
+int mark[]={69,79,56,97,57};
+int sum=0;
+for(int i=0;i<mark.length;i=i+1)
+{
+sum=sum+mark[i];
+}
+System.out.println(sum);
+}
+}
+
+
+
+
+
+
+
+
+//print the al mark
+
+/*for(int i=0;i<mark.length;i=i+1)
+{
+System.out.println(mark[i]);
+}
+}
+}*/
+
+
+// find and replace the mark
+/* int search=56;
+int replace=87;
+for(int i=0;i<mark.length;i=i+1)
+{
+if(mark[i]==search)
+{
+mark[i]=replace;
+}
+}
+
+
+for(int i=0;i<mark.length;i=i+1)
+{
+System.out.println(mark[i]);
+}
+
+
+}
+}*/
+
+

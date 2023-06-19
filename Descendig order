@@ -1,0 +1,25 @@
+//Sort the arrray in Descending order
+
+public class DescOrder
+{
+public static void main(String args[])
+{
+int a[]={3,5,6,7,8,9,0,6,8,6};
+for(int i=0;i<a.length;i=i+1)
+{
+for(int j=i+1;j<a.length;j=j+1)//j=i+1 used for it will chhek after the i value
+{
+if(a[i]<a[j])
+{
+int temp=a[i];
+a[i]=a[j];
+a[j]=temp;
+}
+}
+}
+for(int i=0;i<a.length;i=i+1)
+{
+System.out.println(a[i]);
+}
+}
+}                                               

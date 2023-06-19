@@ -1,0 +1,18 @@
+
+//to fiind array size programme
+
+public class ArraySize
+{
+public static void main(String args[])
+{
+int a[]={28,5,7,8,9,0,6,4,3,6,89,9,6};
+int count=0;
+for(int i:a)
+{
+count=count+1;
+
+}
+System.out.println("The given array size is     " +count);
+}
+
+}   
